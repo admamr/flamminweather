@@ -2,7 +2,7 @@
   "name": "flammin-weather",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://admamr.github.io/flamminweather",
+  "homepage": "https://admamr.github.io/flamminweather/",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
