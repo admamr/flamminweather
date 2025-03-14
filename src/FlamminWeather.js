@@ -29,15 +29,16 @@ const FlamminWeather = () => {
     }
   };
 
-  const getBackgroundVideo = () => {
-    if (!weather) return "/weather/default.mp4";
+  cconst getBackgroundVideo = () => {
+    if (!weather) return process.env.PUBLIC_URL + "/weather/default.mp4";
     const mainWeather = weather.weather[0].main.toLowerCase();
-    if (mainWeather.includes("cloud")) return "/weather/cloudy.mp4";
-    if (mainWeather.includes("rain")) return "/weather/rainy.mp4";
-    if (mainWeather.includes("clear")) return "/weather/sunny.mp4";
-    if (mainWeather.includes("snow")) return "/weather/snowy.mp4";
-    return "/weather/default.mp4";
+    if (mainWeather.includes("cloud")) return process.env.PUBLIC_URL + "/weather/cloudy.mp4";
+    if (mainWeather.includes("rain")) return process.env.PUBLIC_URL + "/weather/rainy.mp4";
+    if (mainWeather.includes("clear")) return process.env.PUBLIC_URL + "/weather/sunny.mp4";
+    if (mainWeather.includes("snow")) return process.env.PUBLIC_URL + "/weather/snowy.mp4";
+    return process.env.PUBLIC_URL + "/weather/default.mp4";
   };
+  
 
   return (
     <div className="weather-container">
