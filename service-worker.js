@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/flamminweather/precache-manifest.7dd54460fce8dcfc4d32a20ef563058b.js"
+  "/flamminweather/precache-manifest.2fd63f285350b54f0027413cb02106c6.js"
 );
 
 self.addEventListener('message', (event) => {
