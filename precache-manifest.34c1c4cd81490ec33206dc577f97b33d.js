@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "56bf18f0c6c6b0af659781564d45b421",
+    "revision": "0f658b946052440f6c8ccbc535e233fc",
     "url": "/flamminweather/index.html"
   },
   {
-    "revision": "6be81036a9b8ec65322e",
+    "revision": "328993ca55b066c2c06d",
     "url": "/flamminweather/static/css/main.848f5000.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/flamminweather/static/js/3.659da4c5.chunk.js"
   },
   {
-    "revision": "6be81036a9b8ec65322e",
-    "url": "/flamminweather/static/js/main.29531994.chunk.js"
+    "revision": "328993ca55b066c2c06d",
+    "url": "/flamminweather/static/js/main.41a907be.chunk.js"
   },
   {
     "revision": "eeed0fa5a24cc05ed5f7",
