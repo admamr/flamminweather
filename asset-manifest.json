@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/flamminweather/static/css/main.2f115aef.css",
-    "main.js": "/flamminweather/static/js/main.c9ed5cf3.js",
-    "static/js/453.81f4c1e9.chunk.js": "/flamminweather/static/js/453.81f4c1e9.chunk.js",
-    "static/media/cloudy.mp4": "/flamminweather/static/media/cloudy.6e2510e555ef3d07ae15.mp4",
-    "static/media/snowy.mp4": "/flamminweather/static/media/snowy.88ccb2945a301ca54ff6.mp4",
-    "static/media/sunny.mp4": "/flamminweather/static/media/sunny.5285b18afd9cad621678.mp4",
-    "static/media/rainy.mp4": "/flamminweather/static/media/rainy.7b186300b36aa59e1324.mp4",
-    "static/media/default.mp4": "/flamminweather/static/media/default.23da0b16ea31dd0228f1.mp4",
+    "main.css": "/flamminweather/static/css/main.848f5000.chunk.css",
+    "main.js": "/flamminweather/static/js/main.29531994.chunk.js",
+    "main.js.map": "/flamminweather/static/js/main.29531994.chunk.js.map",
+    "runtime-main.js": "/flamminweather/static/js/runtime-main.202e2ab9.js",
+    "runtime-main.js.map": "/flamminweather/static/js/runtime-main.202e2ab9.js.map",
+    "static/js/2.d78f55af.chunk.js": "/flamminweather/static/js/2.d78f55af.chunk.js",
+    "static/js/2.d78f55af.chunk.js.map": "/flamminweather/static/js/2.d78f55af.chunk.js.map",
+    "static/js/3.659da4c5.chunk.js": "/flamminweather/static/js/3.659da4c5.chunk.js",
+    "static/js/3.659da4c5.chunk.js.map": "/flamminweather/static/js/3.659da4c5.chunk.js.map",
     "index.html": "/flamminweather/index.html",
-    "main.2f115aef.css.map": "/flamminweather/static/css/main.2f115aef.css.map",
-    "main.c9ed5cf3.js.map": "/flamminweather/static/js/main.c9ed5cf3.js.map",
-    "453.81f4c1e9.chunk.js.map": "/flamminweather/static/js/453.81f4c1e9.chunk.js.map"
+    "precache-manifest.7dd54460fce8dcfc4d32a20ef563058b.js": "/flamminweather/precache-manifest.7dd54460fce8dcfc4d32a20ef563058b.js",
+    "service-worker.js": "/flamminweather/service-worker.js",
+    "static/css/main.848f5000.chunk.css.map": "/flamminweather/static/css/main.848f5000.chunk.css.map",
+    "static/js/2.d78f55af.chunk.js.LICENSE.txt": "/flamminweather/static/js/2.d78f55af.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/css/main.2f115aef.css",
-    "static/js/main.c9ed5cf3.js"
+    "static/js/runtime-main.202e2ab9.js",
+    "static/js/2.d78f55af.chunk.js",
+    "static/css/main.848f5000.chunk.css",
+    "static/js/main.29531994.chunk.js"
   ]
 }
