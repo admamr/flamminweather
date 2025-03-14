@@ -5,6 +5,9 @@ import "./FlamminWeather.css";
 const FlamminWeather = () => {
   const [city, setCity] = useState("");
   const [weather, setWeather] = useState(null);
+  const [backgroundVideo, setBackgroundVideo] = useState(
+    `${process.env.PUBLIC_URL}/weather/default.mp4`
+  );
   const API_KEY = "adb885fffc5e595767dbd3303d0a3cd4";
 
   const fetchWeather = async () => {

@@ -17,19 +17,19 @@ html {
 
 /* Default Background */
 .default {
-  background: url("../public/weather/default.mp4");
+  background: url("/public/weather/default.mp4");
 }
 .sunny {
-  background: url("../public/weather/sunny.mp4") center/cover no-repeat;
+  background: url("/public/weather/sunny.mp4") center/cover no-repeat;
 }
 .cloudy {
-  background: url("../public/weather/rainy.mp4") center/cover no-repeat;
+  background: url("/public/weather/rainy.mp4") center/cover no-repeat;
 }
 .rainy {
-  background: url("../public/weather/cloudy.mp4") center/cover no-repeat;
+  background: url("/public/weather/cloudy.mp4") center/cover no-repeat;
 }
 .snowy {
-  background: url("../public/weather/snowy.mp4") center/cover no-repeat;
+  background: url("/public/weather/snowy.mp4") center/cover no-repeat;
 }
 
 /* Ensure the background video covers the full screen */
