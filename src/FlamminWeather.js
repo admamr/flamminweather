@@ -10,6 +10,24 @@ const FlamminWeather = () => {
   );
   const API_KEY = "adb885fffc5e595767dbd3303d0a3cd4";
 
+  useEffect(() => {
+    if (weather) {
+      const mainWeather = weather.weather[0].main.toLowerCase();
+      let newVideo = `${process.env.PUBLIC_URL}/weather/default.mp4`;
+
+      if (mainWeather.includes("cloud"))
+        newVideo = `${process.env.PUBLIC_URL}/weather/cloudy.mp4`;
+      else if (mainWeather.includes("rain"))
+        newVideo = `${process.env.PUBLIC_URL}/weather/rainy.mp4`;
+      else if (mainWeather.includes("clear"))
+        newVideo = `${process.env.PUBLIC_URL}/weather/sunny.mp4`;
+      else if (mainWeather.includes("snow"))
+        newVideo = `${process.env.PUBLIC_URL}/weather/snowy.mp4`;
+
+      setBackgroundVideo(newVideo);
+    }
+  }, [weather]);
+
   const fetchWeather = async () => {
     if (!city) return;
     try {
@@ -32,31 +50,18 @@ const FlamminWeather = () => {
     }
   };
 
-  const getBackgroundVideo = () => {
-    if (!weather) return process.env.PUBLIC_URL + "/weather/default.mp4";
-    const mainWeather = weather.weather[0].main.toLowerCase();
-    if (mainWeather.includes("cloud"))
-      return process.env.PUBLIC_URL + "/weather/cloudy.mp4";
-    if (mainWeather.includes("rain"))
-      return process.env.PUBLIC_URL + "/weather/rainy.mp4";
-    if (mainWeather.includes("clear"))
-      return process.env.PUBLIC_URL + "/weather/sunny.mp4";
-    if (mainWeather.includes("snow"))
-      return process.env.PUBLIC_URL + "/weather/snowy.mp4";
-    return process.env.PUBLIC_URL + "/weather/default.mp4";
-  };
-
   return (
     <div className="weather-container">
       {/* Video Background */}
       <video
+        key={backgroundVideo}
         autoPlay
         loop
         muted
+        playsInline
         className="background-video"
-        key={getBackgroundVideo()}
       >
-        <source src={getBackgroundVideo()} type="video/mp4" />
+        <source src={backgroundVideo} type="video/mp4" />
       </video>
 
       {/* Weather UI */}
